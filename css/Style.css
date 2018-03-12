@@ -1,0 +1,125 @@
+* {
+margin: 0;
+padding: 0;
+}
+html, body {height: 100%; font-family:Verdana, Geneva, sans-serif; color:#122840; font-size:12px; text-align:justify;}
+h1{color:#fba61a;}
+h2{font-size:35px; margin:85px 0px 25px 55px; font-weight:100;}
+
+/* Main Containers */
+#wrap {min-height: 100%;}
+
+#menu{width:900px; height:58px; margin:0 auto;}
+#menu a{padding:0; margin: 0px 0px 0px -11px; border:0; float:left;}
+/* adicionar cor e marca o menu selecionado*/
+a#menuhome{display:block; width:160px; height:39px; background-image:url(../images/home1.png);}
+body#home a#menuhome{display:block; width:160px; height:39px; background-image:url(../images/home2.png);}
+a#menuhome:hover{background-image:url(../images/home2.png);}
+
+a#menusolution{display:block; width:160px; height:39px; background-image:url(../images/solution1.png);}
+body#solution a#menusolution{display:block; width:160px; height:39px; background-image:url(../images/solution2.png);}
+a#menusolution:hover{background-image:url(../images/solution2.png);}
+
+a#menusupport{display:block; width:160px; height:39px; background-image:url(../images/support1.png);}
+body#support a#menusupport{display:block; width:160px; height:39px; background-image:url(../images/support2.png);}
+a#menusupport:hover{background-image:url(../images/support2.png);}
+
+a#menuhelpdesk{display:block; width:160px; height:39px; background-image:url(../images/vendas1.png);}
+body#helpdesk a#menuhelpdesk{display:block; width:160px; height:39px; background-image:url(../images/vendas2.png);}
+a#menuhelpdesk:hover{background-image:url(../images/vendas2.png);}
+
+/*Possui mais linhas por verificar o submenu para marcar como laranja*/
+a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas1.png);}
+body#redes a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#servidores a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#monitoramento a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#seguranca a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#gerenciamento a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#link a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#cabeamento a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#vpn a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+body#video a#menuempresas{display:block; width:160px; height:39px; background-image:url(../images/empresas2.png);}
+a#menuempresas:hover{background-image:url(../images/empresas2.png);}
+
+a#menucontato{display:block; width:160px; height:39px; background-image:url(../images/contato1.png);}
+body#contato a#menucontato{display:block; width:160px; height:39px; background-image:url(../images/contato2.png);}
+a#menucontato:hover{background-image:url(../images/contato2.png);}
+
+/* adicionar cor e marca o menu selecionado (Sub Aba Empresas) */
+a#menuredes{display:block; width:111px; height:25px; background-image:url(../images/redes1.png);}
+body#redes a#menuredes{display:block; width:111px; height:25px; background-image:url(../images/redes2.png);}
+a#menuredes:hover{background-image:url(../images/redes2.png);}
+
+a#menuservidores{display:block; width:111px; height:25px; background-image:url(../images/servidores1.png);}
+body#servidores a#menuservidores{display:block; width:111px; height:25px; background-image:url(../images/servidores2.png);}
+a#menuservidores:hover{background-image:url(../images/servidores2.png);}
+
+a#menugerenciamento{display:block; width:111px; height:25px; background-image:url(../images/gerenciamento1.png);}
+body#gerenciamento a#menugerenciamento{display:block; width:111px; height:25px; background-image:url(../images/gerenciamento2.png);}
+a#menugerenciamento:hover{background-image:url(../images/gerenciamento2.png);}
+
+a#menuseguranca{display:block; width:111px; height:25px; background-image:url(../images/seguranca1.png);}
+body#seguranca a#menuseguranca{display:block; width:111px; height:25px; background-image:url(../images/seguranca2.png);}
+a#menuseguranca:hover{background-image:url(../images/seguranca2.png);}
+
+a#menuvideo{display:block; width:111px; height:25px; background-image:url(../images/video1.png);}
+body#video a#menuvideo{display:block; width:111px; height:25px; background-image:url(../images/video2.png);}
+a#menuvideo:hover{background-image:url(../images/video2.png);}
+
+a#menulink{display:block; width:111px; height:25px; background-image:url(../images/link1.png);}
+body#link a#menulink{display:block; width:111px; height:25px; background-image:url(../images/link2.png);}
+a#menulink:hover{background-image:url(../images/link2.png);}
+
+a#menucabeamento{display:block; width:111px; height:25px; background-image:url(../images/cabeamento1.png);}
+body#cabeamento a#menucabeamento{display:block; width:111px; height:25px; background-image:url(../images/cabeamento2.png);}
+a#menucabeamento:hover{background-image:url(../images/cabeamento2.png);}
+
+a#menuvpn{display:block; width:111px; height:25px; background-image:url(../images/computadores1.png);}
+body#vpn a#menuvpn{display:block; width:111px; height:25px; background-image:url(../images/computadores2.png);}
+a#menuvpn:hover{background-image:url(../images/computadores2.png);}
+
+
+
+
+#header{background-color:#01133e; height:157px;}
+#header #containerheader{width:900px; margin:0 auto;}
+#header #containerheader img{margin:20px 0px 0px 35px;}
+
+#main {overflow:hidden; width:900px; margin-left:auto; margin-right:auto;}
+#main #left-menu{float:left; width:240px; padding-top:40px; color:#616161;}
+#main #left-menu a{text-decoration:none; color:#616161; padding-left:30px;}
+#main #left-menu img{margin: 5px 0px 5px 0px;}
+#main #left-menu label{display:block; font-size:9px; margin-left:30px; margin-bottom:10px;}
+#main #left-menu .botao{margin-left:123px;}
+#main #conteudo{float:left; width:657px; padding-top:40px; overflow:hidden;}
+#main #conteudo a{color:#fba61a; text-decoration:none;}
+#main #conteudo #suporte li{margin-left:30px}
+
+/*Empresas*/
+#menuempresas #menubarracinza{height:10px; background-color:#838385; width:888px;}
+#menuempresas a{margin:-8px 0px 0px 0px; border:0; float:left;}
+#conteudoempresas {height:550px; width:900px; overflow:auto;}
+#conteudoempresas img{float:left; margin-right:10px;}
+#conteudoempresas #textoempresas{width:500px; float:left; margin-right:10px;}
+#conteudoempresas #textoempresas li{margin-left:35px;}
+#conteudoempresas #textoempresas a{text-decoration:none; color:#fba61a;}
+#conteudoempresas #textoempresas td{height:100px; width:800px;}
+
+/*Contato*/
+#contatoesq{float:left; width:450px;}
+#contatoesq label{display:block; width:100px; float:left; margin-bottom:5px;}
+#contatodir{float:right; width:450px;}
+.botao {width:75px; height:25px; margin:7px 0px 0px 7px;}
+
+
+
+/*Footer*/
+#footer {position: relative; margin-top: -106px; /* negative value of footer height */ height: 106px; clear:both; color:#8e8d8d; font-size:9px;} 
+/*Opera Fix para o footer*/
+body:before {content:""; height:100%; float:left; width:0; margin-top:-32767px;/}
+#footer #barrafooter{height:15px; background-color:#01133e;}
+#footer #footercontainer{margin:0 auto; width:900px;}
+#footer #footercontainer #copyright{float:left; margin:10px 0px 0px 10px;}
+#footer #footercontainer #linklimao{float:right; margin:10px 10px 0px 0px;}
+#footer #footercontainer a{text-decoration:none; color:#8e8d8d;}
+

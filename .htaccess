@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteRule home$ index.php [L,QSA]
+
+RewriteRule click-solution$ solution.php [L,QSA]
+
+RewriteRule click-support$ support.php [L,QSA]
+
+RewriteRule vendas$ vendas.php [L,QSA]
+
+RewriteRule contato$ contato.php [L,QSA]
+
+RewriteRule empresas-redes$ redes.php [L,QSA]
+
+RewriteRule empresas-servidores$ servidores.php [L,QSA]
+
+RewriteRule empresas-gerenciamento$ gerenciamento.php [L,QSA]
+
+RewriteRule empresas-seguranca$ seguranca.php [L,QSA]
+
+RewriteRule empresas-video$ video.php [L,QSA]
+
+RewriteRule empresas-linkdedados$ link.php [L,QSA]
+
+RewriteRule empresas-cabeamento$ cabeamento.php [L,QSA]
+
+RewriteRule empresas-vpnmpls$ vpn.php [L,QSA]

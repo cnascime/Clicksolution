@@ -1,0 +1,12 @@
+body {
+background-color:#FFFFFF;
+}
+#projetos {
+width: 100%;
+min-height: 235px;
+background-color:#FFFFFF;
+margin-top: 150px;
+background-repeat:no-repeat;
+background-position:center; 
+}
+
